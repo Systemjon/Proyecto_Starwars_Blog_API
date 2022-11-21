@@ -24,8 +24,8 @@ export const InfoCharacter = ()=> {
                 <img src={`https://starwars-visualguide.com/assets/img/characters/${params.id}.jpg`} className="m-4"
                 alt="..." />
                 <div className="mx-4 justify-content-center">
-                    <h1 className="text-primary my-3">{character.name}</h1>
-                    <p className="text-primary fs-5">{Lorem} </p>
+                    <h1 className="my-3">{character.name}</h1>
+                    <p className="fs-5">{Lorem} </p>
                 </div>
             </div>
             <div className="d-flex justify-content-around mt-4 mx-3 pt-4 border-top border-2 border-danger">
